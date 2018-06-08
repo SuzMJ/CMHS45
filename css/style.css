@@ -1,0 +1,237 @@
+/* generalstyling */
+
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+z-index: -5000;
+}
+
+/*headings*/
+h1 {
+font-family:"Arvo";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h2 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+margin: 5px 0;
+padding: 0;
+position: relative;
+}
+h4 {
+font-family:"Wellfleet";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;	
+	
+}
+
+address { font-family: 'Goudy Bookletter 1911', serif;
+color: #fff;
+font-weight: normal;
+font-size: 20px;
+text-align: left;
+margin: 0 auto;
+}	
+	
+/*links*/
+a { color: #ff9912;
+    text-decoration: none;
+	}
+	
+/* element positioning */
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px;
+          }
+.content_color{ margin: 0 auto; width: 960px;
+          background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+          background: rgba(54, 25, 25, .5);
+		  padding:30px 50px 80px 50px;}
+.clear { clear: both; }
+
+/* header styling */
+#header {
+width: 100%;
+background: url('../img/header-bg2.png');
+height: 80px;
+z-index: 5000;
+position: fixed;
+margin-top: 30px;
+}
+#nav { width: 490px; float: right; margin-top: 20px; }
+
+
+#logo a { color: #fff; text-decoration: none; float: left; 50% font-size: 24px; margin-top: 10px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+
+#nav ul{
+list-style: none;
+display:inline-block;
+margin: 0 auto;
+list-style: none;
+}
+
+li { 
+font-family: 'Goudy Bookletter 1911', serif;
+color: #fff;
+font-weight: normal;
+font-size: 22px;
+text-align: left;
+margin: 0 auto;
+text-decoration: none;
+}
+
+/*nav*/
+#nav li{
+margin-top: 9px;
+float: left;
+padding-left: 20px;
+}
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1; }
+
+/* button*/
+.button {
+display:inline-block;
+width: 230px; 
+padding: 10px 15px;  
+margin: 20px 20px; 
+cursor: pointer; 
+font-family:"Wellfleet";
+font-weight: bold; 
+background: #800000; 
+color: #FF9912; 
+text-align: center;
+border-radius: 10px; 
+border: 1px solid #999; font-size: 100%;
+}
+	
+/* additional styling */
+
+.quotes {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+margin: 20px auto 20px;
+}
+
+.quotes_color {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+margin: 40px auto 20px;
+background-color: background: rgb(76, 175, 80);
+}
+
+.quotes_white {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 20px;
+text-align: left;
+margin: 60px auto 20px;
+background-color: background: rgb(76, 175, 80);
+}
+
+/*Columns*/
+.columns
+{   
+    -moz-column-width: 11.5em; /* Firefox */
+    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
+    column-width: 11.5em;
+}
+/*remove standard list and bullet formatting from ul*/
+.columns ul li
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* correct webkit/chrome uneven margin on the first column*/
+.columns ul li:first-child
+{
+    margin-top:0px;
+}
+
+/*AuthorText*/
+ .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
+ .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
+ 
+ .pointer_gray { font-family:"Wellfleet"; color: #94a4a4; font-size: 20px; }
+
+ .quotes_container { width: 800px; 
+                     margin: 0 auto;
+                     padding:0 auto; }
+
+/* Background image slide image or white */
+#slide1, #slide2{ width: 100%; }
+#slide1{
+background:url('../img/reunion40group.png') 40% 0 no-repeat fixed;
+color: #fff;
+height: 300px;
+margin: 0;
+padding: 150px 0 260px 0;
+background-size: cover;
+}
+#slide2{
+background-color: #800000;
+color: #fff;
+height: 300px;
+overflow: hidden;
+padding: 100px 0 280px 0;
+}
+#slide3{
+background: url(../img/alumni-banner2.jpg) 25% 0 no-repeat fixed ;
+/*background: url(../img/bell-mary.jpg) 25% 0 no-repeat fixed ;*/
+color: #fff;
+height: 500px;
+padding: 140px 0 120px 0;
+background-size: cover;
+}
+#slide4{
+background-color: #fff;
+color: #333333;
+height: 500px;
+padding: 120px 0 100px;
+}
+#slide5{
+background: url(../img/cardinal.jpg) 25% 0 no-repeat fixed;
+height:250px;
+margin: 0 auto;
+padding: 100px 0 270px 0;
+color: #fff;
+text-align: center;
+background-size: cover;
+}
+
+/* copyright */
+footer { position: relative;
+          clear: both;
+}
+#copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 60px; text-align: center; }
+#copyright a { text-decoration: none; color: #fff; }
+
+form {text-align: center;}
+ 
